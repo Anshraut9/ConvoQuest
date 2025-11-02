@@ -1,15 +1,19 @@
 # 🤖 ConvoQuest – Generative AI Web Application
 
 ConvoQuest is a 3-in-1 interactive AI web application built using Python and Streamlit, powered by the Google Gemini API.
+
 It features a conversational AI chatbot, an on-demand quiz generator, and a persistent chat history log — all integrated within a single, user-friendly interface.
 
 # 🚀 Project Overview
 
 This project demonstrates the integration of Large Language Models (LLMs) with modern web frameworks.
+
 ConvoQuest includes:
 
 💬 AI Chatbot – A conversational assistant powered by Google Gemini API.
+
 🧠 Quiz Generator – Automatically creates and evaluates 20-question quizzes on any user-specified topic.
+
 📜 History Log – Maintains past chat and quiz sessions with the ability to view or clear them.
 
 The app leverages Streamlit’s Session State for dynamic state management and JSON schema validation for reliable AI response parsing.
@@ -61,14 +65,21 @@ Then open your browser and visit:
 
 
 You’ll see the ConvoQuest dashboard with three tabs:
+
 💬 Chatbot
+
 🧠 Quiz Generator
+
 🕒 History
 
 # 🧠 Technologies Used
 
 Python – Core programming language
+
 Streamlit – Web framework for interactive UI
+
 Google Gemini API – LLM for chatbot and quiz generation
+
 JSON – Structured data exchange and validation
+
 Session State Management – Persistent chat and quiz history
