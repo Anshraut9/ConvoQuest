@@ -1,22 +1,28 @@
 # 🤖 ConvoQuest – Generative AI Web Application
 
-ConvoQuest is a 3-in-1 interactive AI web application built using Python and Streamlit, powered by the Google Gemini API.
-
-It features a conversational AI chatbot, an on-demand quiz generator, and a persistent chat history log — all integrated within a single, user-friendly interface.
+ConvoQuest is a professional 3-in-1 interactive AI platform built using Python and Streamlit, powered by the Google Gemini API. 
+This application bridges the gap between conversational AI, automated education, and real-time skill evaluation.
 
 # 🚀 Project Overview
 
-This project demonstrates the integration of Large Language Models (LLMs) with modern web frameworks.
+This project demonstrates advanced integration of Large Language Models (LLMs) with modern web frameworks, focusing on structured data and multi-turn reasoning.
 
-ConvoQuest includes:
+# 💬 AI Chatbot
+A conversational assistant powered by the Google Gemini API. It handles general queries with a focus on natural language understanding and now features a persistent sidebar for session-wide context.
 
-💬 AI Chatbot – A conversational assistant powered by Google Gemini API.
+# 🧠 Quiz Master
+An automated assessment engine that generates 20-question MCQ quizzes on any user-specified topic.
 
-🧠 Quiz Generator – Automatically creates and evaluates 20-question quizzes on any user-specified topic.
+Data Integrity: Employs JSON Schema enforcement to ensure 100% reliable parsing of AI responses.
 
-📜 History Log – Maintains past chat and quiz sessions with the ability to view or clear them.
+Evaluation: Features an automated grading system with instant feedback on correct and incorrect answers.
 
-The app leverages Streamlit’s Session State for dynamic state management and JSON schema validation for reliable AI response parsing.
+# 🥊 AI Shadow Boxer (Scenario Simulator)
+An innovative "Roleplay Arena" designed for skill-building through high-stakes simulations (e.g., Salary Negotiations or Interviews).
+
+Interactive Challenge: The AI is programmed with a "Tough Opponent" persona to challenge user arguments.
+
+Performance Scorecard: Generates a data-driven report evaluating Logic, Tone, and Persuasion via a comprehensive multi-turn transcript analysis.
 
 # 🗂 Repository
 
@@ -64,13 +70,13 @@ Then open your browser and visit:
 👉 ---website(local host)---
 
 
-You’ll see the ConvoQuest dashboard with three tabs:
+You will find the dashboard organized into three functional modules:
 
-💬 Chatbot
+💬 Chatbot: General AI assistance.
 
-🧠 Quiz Generator
+🧠 Quiz Master: Topic-based 20-question assessments.
 
-🕒 History
+🥊 Shadow Boxer: Simulation and performance scoring.
 
 # 🧠 Technologies Used
 
